@@ -5,7 +5,6 @@ import ShoppingCart from './pages/home';
 const App = () => {
   return (
     <Router>
-      {/* <NavBar /> */}
       <Routes>
         <Route path="/" element={<ShoppingCart />} />
       </Routes>
